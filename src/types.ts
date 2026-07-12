@@ -1,3 +1,17 @@
+export interface TimelineItem {
+  label: string;
+  text: string;
+}
+
+export interface ProjectItem {
+  label: string;
+  time: string;
+  position: string;
+  logo: string;
+  text: string;
+  gallery: string[];
+}
+
 export interface Experience {
   id: string;
   slug: string;
@@ -13,4 +27,9 @@ export interface Experience {
   description: string;
   paragraphs: string[];
   gallery: string[];
+  detailName?: string;
+  metaText?: string;
+  timelineItems?: TimelineItem[];
+  partnerLogos?: string[];
+  projects?: ProjectItem[];
 }

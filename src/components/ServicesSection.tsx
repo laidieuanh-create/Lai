@@ -5,7 +5,7 @@ const services = [
   {
     num: "01",
     name: "Event Planning",
-    desc: "End-to-end planning for exhibitions, conferences, networking events, and corporate experiences, ensuring seamless execution from concept to completion.",
+    desc: "Coordinating event logistics, vendor and budget management, and on-site execution from concept to delivery.",
   },
   {
     num: "02",
@@ -14,18 +14,18 @@ const services = [
   },
   {
     num: "03",
+    name: "Bilingual Hosting (MC)",
+    desc: "MC hosting and English–Vietnamese interpretation for conferences, forums, and cross-cultural business events.",
+  },
+  {
+    num: "04",
     name: "Project Management",
     desc: "Efficient timeline management, vendor coordination, budgeting, and on-site execution to deliver events smoothly, on time, and within scope.",
   },
   {
-    num: "04",
-    name: "Brand Experience",
-    desc: "Creating immersive event concepts and memorable brand experiences that strengthen brand identity and foster meaningful audience connections.",
-  },
-  {
     num: "05",
     name: "Creative Design",
-    desc: "Designing presentations, event branding, visual communications, and AI-assisted creative assets that elevate event experiences and brand storytelling.",
+    desc: "Designing presentations, event branding, and short-form videos using CapCut, Canva, and AI-assisted creative tools.",
   },
 ];
 

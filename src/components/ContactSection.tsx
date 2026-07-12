@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Mail, Instagram, Linkedin, Calendar, CheckCircle2, Loader2 } from "lucide-react";
+import { Mail, Linkedin, Calendar, CheckCircle2, Loader2, Phone, Facebook, X } from "lucide-react";
 import FadeIn from "./FadeIn";
 
 export default function ContactSection() {
@@ -12,6 +12,7 @@ export default function ContactSection() {
   });
   const [submitted, setSubmitted] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [showWeChatModal, setShowWeChatModal] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -83,6 +84,24 @@ export default function ContactSection() {
                 </a>
               </FadeIn>
 
+              <FadeIn delay={0.12} y={20}>
+                <a
+                  href="tel:+84918076000"
+                  className="flex items-center gap-3 text-sm sm:text-base hover:text-white transition-colors group w-max"
+                >
+                  <div className="p-3 rounded-full border border-[#D7E2EA]/15 group-hover:bg-[#D7E2EA]/10 transition-colors">
+                    <Phone className="w-5 h-5 text-[#D7E2EA]" />
+                  </div>
+                  <div>
+                    <span className="text-[10px] uppercase tracking-wider text-[#D7E2EA]/45 block">
+                      PHONE
+                    </span>
+                    <span className="font-medium block">+84 918 076 000</span>
+                    <span className="text-[10px] text-[#D7E2EA]/40 block">Vietnam</span>
+                  </div>
+                </a>
+              </FadeIn>
+
               <FadeIn delay={0.15} y={20}>
                 <div className="flex items-center gap-3 text-sm sm:text-base w-max">
                   <div className="p-3 rounded-full border border-[#D7E2EA]/15">
@@ -92,7 +111,7 @@ export default function ContactSection() {
                     <span className="text-[10px] uppercase tracking-wider text-[#D7E2EA]/45 block">
                       Location
                     </span>
-                    <span className="font-medium">Vietnam (Hanoi & HCMC)</span>
+                    <span className="font-medium">Vietnam</span>
                   </div>
                 </div>
               </FadeIn>
@@ -103,16 +122,16 @@ export default function ContactSection() {
           <div className="mt-12 pt-8 border-t border-[#D7E2EA]/10 flex flex-wrap items-center justify-between gap-4">
             <div className="flex gap-4">
               <a
-                href="https://instagram.com"
+                href="https://www.facebook.com/dieu.anh.lai.2024/"
                 target="_blank"
                 rel="noreferrer"
                 className="p-3 rounded-full border border-[#D7E2EA]/10 hover:bg-[#D7E2EA]/10 transition-colors"
-                title="Instagram"
+                title="Facebook"
               >
-                <Instagram className="w-5 h-5" />
+                <Facebook className="w-5 h-5" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/lai-dieu-anh-794893295/"
                 target="_blank"
                 rel="noreferrer"
                 className="p-3 rounded-full border border-[#D7E2EA]/10 hover:bg-[#D7E2EA]/10 transition-colors"
@@ -120,6 +139,26 @@ export default function ContactSection() {
               >
                 <Linkedin className="w-5 h-5" />
               </a>
+              <a
+                href="https://wa.me/84918076000"
+                target="_blank"
+                rel="noreferrer"
+                className="p-3 rounded-full border border-[#D7E2EA]/10 hover:bg-[#D7E2EA]/10 transition-colors"
+                title="WhatsApp"
+              >
+                <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                  <path d="M12.004 2C6.48 2 2 6.48 2 12.004c0 1.83.493 3.553 1.353 5.045L2 22l5.127-1.347A9.945 9.945 0 0012.004 22C17.524 22 22 17.52 22 12.004S17.524 2 12.004 2zm5.727 13.918c-.244.687-1.22 1.251-1.742 1.295-.47.04-1.077.062-1.722-.143a9.23 9.23 0 01-3.606-2.222 10.158 10.158 0 01-2.433-3.411c-.482-.8-.745-1.73-.745-2.697 0-1.89 1.01-2.903 1.378-3.268.271-.271.556-.341.745-.341.19 0 .378.01.543.02.176.01.408-.07.64.47.243.57.828 2.02.9 2.16.071.14.12.311.02.5-.1.19-.15.3-.3.472-.15.172-.315.385-.45.517-.15.143-.31.3-.133.605.176.3.784 1.29 1.681 2.086.772.684 1.42 1.05 1.742 1.213.322.16.51.13.7.02.19-.112.815-.947 1.033-1.272.218-.322.438-.27.733-.16.295.11 1.872.88 2.195 1.04.322.16.536.24.613.37.077.13.077.752-.167 1.442z" />
+                </svg>
+              </a>
+              <button
+                onClick={() => setShowWeChatModal(true)}
+                className="p-3 rounded-full border border-[#D7E2EA]/10 hover:bg-[#D7E2EA]/10 transition-colors cursor-pointer"
+                title="WeChat"
+              >
+                <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                  <path d="M8.2 14c-.3 0-.5-.2-.5-.5s.2-.5.5-.5.5.2.5.5-.2.5-.5.5zm3.8 0c-.3 0-.5-.2-.5-.5s.2-.5.5-.5.5.2.5.5-.2.5-.5.5zm4.2-2.5C16.2 7.7 12.5 5 8.1 5s-8.1 2.7-8.1 6.1c0 2.1 1.5 3.9 3.8 4.9L3.3 17.7l2.1-1c.8.3 1.7.5 2.7.5 4.4 0 8.1-2.7 8.1-6.1zm3.3 4.2c.8 0 1.5-.2 2.2-.5l1.7.8-.4-1.4c1.8-1 2.9-2.4 2.9-4.2 0-2.8-2.8-5.1-6.4-5.1-1 0-1.9.2-2.8.5 2 1.3 3.2 3.1 3.2 5.1 0 3.1-2.7 5.6-6.2 5.6-.3 0-.6 0-.8-.1.7 1.3 2.1 2.2 3.9 2.2l1.7.8-.4-1.4c1.8-1 2.9-2.4 2.9-4.2v-.3z" />
+                </svg>
+              </button>
             </div>
             <p className="text-xs text-[#D7E2EA]/40 uppercase tracking-widest font-mono">
               © 2026 Dieu Anh. All rights reserved.
@@ -227,6 +266,40 @@ export default function ContactSection() {
           </div>
         </FadeIn>
       </div>
+
+      {/* WeChat QR Code Modal */}
+      {showWeChatModal && (
+        <div 
+          className="fixed inset-0 bg-[#0C0C0C]/90 backdrop-blur-md flex items-center justify-center z-50 p-4" 
+          onClick={() => setShowWeChatModal(false)}
+        >
+          <div 
+            className="bg-[#121212] border border-[#D7E2EA]/15 rounded-[24px] sm:rounded-[32px] p-6 sm:p-8 max-w-xs sm:max-w-sm w-full relative" 
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              onClick={() => setShowWeChatModal(false)}
+              className="absolute top-4 right-4 text-[#D7E2EA]/40 hover:text-white transition-colors p-1"
+              aria-label="Close modal"
+            >
+              <X className="w-5 h-5" />
+            </button>
+            <div className="flex flex-col items-center text-center pt-2">
+              <div className="bg-white p-3 rounded-2xl mb-4 shadow-[0_0_30px_rgba(255,255,255,0.05)]">
+                {/* Replace the URL below with your real WeChat QR Code image once available */}
+                <img
+                  src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=WeChat-DieuAnh"
+                  alt="WeChat QR Code"
+                  className="w-40 h-40 sm:w-48 sm:h-48 object-contain rounded-lg"
+                  referrerPolicy="no-referrer"
+                />
+              </div>
+              <h4 className="text-lg font-bold text-white mb-1 uppercase tracking-wider">WECHAT</h4>
+              <p className="text-[#D7E2EA]/60 text-xs sm:text-sm font-light">Scan to add me on WeChat</p>
+            </div>
+          </div>
+        </div>
+      )}
     </section>
   );
 }
