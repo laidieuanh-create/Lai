@@ -74,7 +74,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ exp, index, totalCards,
 
             <div onClick={(e) => e.stopPropagation()}>
               <GhostButton
-                label="View Experience"
+                label="Xem chi tiết"
                 to={`/experiences/${exp.slug}`}
                 className="py-2 px-5 sm:px-7 sm:py-2.5 text-xs sm:text-sm"
               />
@@ -154,7 +154,7 @@ export default function ExperiencesSection() {
               className="hero-heading font-black uppercase leading-none tracking-tight inline-block"
               style={{ fontSize: "clamp(3rem, 12vw, 160px)" }}
             >
-              Experience
+              Kinh nghiệm
             </h2>
           </FadeIn>
         </div>

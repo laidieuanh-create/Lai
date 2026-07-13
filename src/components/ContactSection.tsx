@@ -37,7 +37,7 @@ export default function ContactSection() {
       }, 5000);
     } catch (error) {
       console.error("Error submitting form:", error);
-      alert("Failed to submit form. Please try again later.");
+      alert("Không thể gửi được biểu mẫu. Vui lòng thử lại sau.");
     } finally {
       setIsSubmitting(false);
     }
@@ -54,17 +54,17 @@ export default function ContactSection() {
           <div>
             <FadeIn delay={0} y={30}>
               <span className="text-xs font-semibold text-[#D7E2EA]/50 uppercase tracking-widest block mb-3">
-                LET'S CONNECT
+                KẾT NỐI VỚI TÔI
               </span>
-              <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold uppercase tracking-tight text-[#D7E2EA] leading-tight mb-6">
-                LET'S BUILD SOMETHING <br />
-                <span className="hero-heading font-black">GREAT TOGETHER</span>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl font-bold uppercase tracking-tight text-[#D7E2EA] leading-tight mb-6">
+                <span className="inline-block">CÙNG NHAU KIẾN TẠO</span> <br />
+                <span className="hero-heading font-black inline-block">NHỮNG ĐIỀU TUYỆT VỜI</span>
               </h2>
               <p className="text-[#D7E2EA]/70 font-light max-w-md text-sm sm:text-base leading-relaxed mb-8">
-                Open to new opportunities in event planning. Reach out if you'd like to chat about a role, a project, or just to connect.
+                Sẵn sàng cho những thử thách mới. Hãy cùng kết nối để tạo nên những giá trị ý nghĩa. ⭐
               </p>
             </FadeIn>
-
+ 
             {/* Quick Contact Links */}
             <div className="flex flex-col gap-4">
               <FadeIn delay={0.1} y={20}>
@@ -77,13 +77,13 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <span className="text-[10px] uppercase tracking-wider text-[#D7E2EA]/45 block">
-                      Email Me
+                      EMAIL
                     </span>
                     <span className="font-medium">laidieuanh@gmail.com</span>
                   </div>
                 </a>
               </FadeIn>
-
+ 
               <FadeIn delay={0.12} y={20}>
                 <a
                   href="tel:+84918076000"
@@ -94,10 +94,9 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <span className="text-[10px] uppercase tracking-wider text-[#D7E2EA]/45 block">
-                      PHONE
+                      ĐIỆN THOẠI
                     </span>
                     <span className="font-medium block">+84 918 076 000</span>
-                    <span className="text-[10px] text-[#D7E2EA]/40 block">Vietnam</span>
                   </div>
                 </a>
               </FadeIn>
@@ -109,9 +108,9 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <span className="text-[10px] uppercase tracking-wider text-[#D7E2EA]/45 block">
-                      Location
+                      ĐỊA ĐIỂM
                     </span>
-                    <span className="font-medium">Vietnam</span>
+                    <span className="font-medium">Việt Nam</span>
                   </div>
                 </div>
               </FadeIn>
@@ -161,7 +160,7 @@ export default function ContactSection() {
               </button>
             </div>
             <p className="text-xs text-[#D7E2EA]/40 uppercase tracking-widest font-mono">
-              © 2026 Dieu Anh. All rights reserved.
+              © 2026 Diệu Anh. Toàn bộ bản quyền được bảo lưu.
             </p>
           </div>
         </div>
@@ -173,82 +172,82 @@ export default function ContactSection() {
               <div className="flex flex-col items-center justify-center text-center py-12">
                 <CheckCircle2 className="w-16 h-16 text-emerald-400 mb-4 animate-bounce" />
                 <h3 className="text-2xl font-bold uppercase tracking-wide text-white mb-2">
-                  Message Sent!
+                  Gửi tin nhắn thành công!
                 </h3>
                 <p className="text-[#D7E2EA]/60 text-sm max-w-sm">
-                  Thank you for reaching out! Dieu Anh will connect with you shortly.
+                  Cảm ơn bạn đã liên hệ! Diệu Anh sẽ kết nối với bạn trong thời gian sớm nhất.
                 </p>
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="flex flex-col gap-5">
                 <div>
                   <label className="text-xs uppercase tracking-widest font-semibold text-[#D7E2EA]/60 block mb-2">
-                    Your Name *
+                    Họ và tên của bạn *
                   </label>
                   <input
                     type="text"
                     required
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                    placeholder="Enter your name"
+                    placeholder="Nhập họ và tên của bạn"
                     className="w-full bg-[#1A1A1A] border border-[#D7E2EA]/15 rounded-xl px-4 py-3 text-sm text-[#D7E2EA] placeholder-[#D7E2EA]/30 focus:outline-none focus:border-[#D7E2EA] transition-colors"
                   />
                 </div>
 
                 <div>
                   <label className="text-xs uppercase tracking-widest font-semibold text-[#D7E2EA]/60 block mb-2">
-                    Your Email *
+                    Email của bạn *
                   </label>
                   <input
                     type="email"
                     required
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                    placeholder="Enter your email address"
+                    placeholder="Nhập địa chỉ email của bạn"
                     className="w-full bg-[#1A1A1A] border border-[#D7E2EA]/15 rounded-xl px-4 py-3 text-sm text-[#D7E2EA] placeholder-[#D7E2EA]/30 focus:outline-none focus:border-[#D7E2EA] transition-colors"
                   />
                 </div>
 
                 <div>
                   <label className="text-xs uppercase tracking-widest font-semibold text-[#D7E2EA]/60 block mb-2">
-                    Company / Organization
+                    Công ty / Tổ chức
                   </label>
                   <input
                     type="text"
                     value={formData.company}
                     onChange={(e) => setFormData({ ...formData, company: e.target.value })}
-                    placeholder="Where are you reaching out from?"
+                    placeholder="Tên công ty hoặc tổ chức của bạn"
                     className="w-full bg-[#1A1A1A] border border-[#D7E2EA]/15 rounded-xl px-4 py-3 text-sm text-[#D7E2EA] placeholder-[#D7E2EA]/30 focus:outline-none focus:border-[#D7E2EA] transition-colors"
                   />
                 </div>
 
                 <div>
                   <label className="text-xs uppercase tracking-widest font-semibold text-[#D7E2EA]/60 block mb-2">
-                    Reason for Contact
+                    Lý do liên hệ
                   </label>
                   <select
                     value={formData.reason}
                     onChange={(e) => setFormData({ ...formData, reason: e.target.value })}
                     className="w-full bg-[#1A1A1A] border border-[#D7E2EA]/15 rounded-xl px-4 py-3 text-sm text-[#D7E2EA] focus:outline-none focus:border-[#D7E2EA] transition-colors cursor-pointer"
                   >
-                    <option value="" disabled className="text-[#D7E2EA]/30">Select a reason</option>
-                    <option value="Job Opportunity">Job Opportunity</option>
-                    <option value="Internship">Internship</option>
-                    <option value="Freelance / Project-based">Freelance / Project-based</option>
-                    <option value="Just Networking">Just Networking</option>
-                    <option value="Other">Other</option>
+                    <option value="" disabled className="text-[#D7E2EA]/30">Chọn lý do</option>
+                    <option value="Job Opportunity">Cơ hội nghề nghiệp</option>
+                    <option value="Internship">Cơ hội thực tập</option>
+                    <option value="Freelance / Project-based">Dự án tự do / Theo dự án</option>
+                    <option value="Just Networking">Kết nối giao lưu</option>
+                    <option value="Other">Khác</option>
                   </select>
                 </div>
 
                 <div>
                   <label className="text-xs uppercase tracking-widest font-semibold text-[#D7E2EA]/60 block mb-2">
-                    Your Message
+                    Tin nhắn của bạn
                   </label>
                   <textarea
                     rows={4}
                     value={formData.message}
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                    placeholder="Tell me about the role, the team, or what you'd like to discuss..."
+                    placeholder="Hãy chia sẻ về vị trí công việc, đội ngũ của bạn, hoặc bất kỳ nội dung nào bạn muốn thảo luận..."
                     className="w-full bg-[#1A1A1A] border border-[#D7E2EA]/15 rounded-xl px-4 py-3 text-sm text-[#D7E2EA] placeholder-[#D7E2EA]/30 focus:outline-none focus:border-[#D7E2EA] transition-colors resize-none"
                   />
                 </div>
@@ -259,7 +258,7 @@ export default function ContactSection() {
                   className="w-full bg-white hover:bg-[#D7E2EA] text-[#0C0C0C] font-semibold uppercase tracking-wider py-4 rounded-xl text-sm transition-all duration-300 cursor-pointer shadow-lg hover:shadow-xl mt-2 active:scale-[0.99] disabled:opacity-50 flex items-center justify-center gap-2"
                 >
                   {isSubmitting ? <Loader2 className="w-4 h-4 animate-spin" /> : null}
-                  {isSubmitting ? 'SENDING...' : 'SEND MESSAGE'}
+                  {isSubmitting ? 'ĐANG GỬI...' : 'GỬI TIN NHẮN'}
                 </button>
               </form>
             )}
@@ -295,7 +294,7 @@ export default function ContactSection() {
                 />
               </div>
               <h4 className="text-lg font-bold text-white mb-1 uppercase tracking-wider">WECHAT</h4>
-              <p className="text-[#D7E2EA]/60 text-xs sm:text-sm font-light">Scan to add me on WeChat</p>
+              <p className="text-[#D7E2EA]/60 text-xs sm:text-sm font-light">Quét mã để kết nối với tôi trên WeChat</p>
             </div>
           </div>
         </div>

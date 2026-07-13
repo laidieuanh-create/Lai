@@ -48,12 +48,12 @@ export default function ExperienceDetailPage() {
     return (
       <div className="min-h-screen bg-[#0C0C0C] flex flex-col items-center justify-center text-center p-8">
         <h1 className="text-4xl font-bold uppercase tracking-widest text-[#D7E2EA] mb-4">
-          Experience Not Found
+          Không tìm thấy kinh nghiệm
         </h1>
         <p className="text-[#D7E2EA]/60 max-w-md mb-8">
-          The requested portfolio project could not be found. It may have been moved or renamed.
+          Dự án danh mục đầu tư được yêu cầu không thể tìm thấy. Nó có thể đã bị di chuyển hoặc đổi tên.
         </p>
-        <GhostButton label="Back to Homepage" to="/" />
+        <GhostButton label="Quay lại Trang chủ" to="/" />
       </div>
     );
   }
@@ -68,7 +68,7 @@ export default function ExperienceDetailPage() {
             className="flex items-center gap-2 text-xs uppercase tracking-widest font-bold text-[#D7E2EA]/60 hover:text-white transition-colors cursor-pointer group"
           >
             <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
-            <span>Back to Experiences</span>
+            <span>Quay lại Kinh nghiệm</span>
           </Link>
         </div>
         <Navbar />
@@ -374,10 +374,10 @@ export default function ExperienceDetailPage() {
             <section className="flex flex-col gap-6">
               <FadeIn delay={0} y={30}>
                 <h3 className="text-xs uppercase tracking-widest font-semibold text-[#D7E2EA]/50">
-                  Event Gallery
+                  Thư viện ảnh Sự kiện
                 </h3>
               </FadeIn>
-
+              
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 {experience.gallery.map((imgUrl, i) => (
                   <FadeIn key={i} delay={i * 0.08} y={30}>
@@ -397,23 +397,25 @@ export default function ExperienceDetailPage() {
         )}
 
         {/* Closing CTA */}
-        <section className="flex flex-col items-center text-center gap-8 py-12 sm:py-16">
-          <FadeIn delay={0} y={30}>
+        <section className="flex flex-col items-center justify-center text-center gap-8 py-12 sm:py-16 w-full">
+          <FadeIn delay={0} y={30} className="flex flex-col items-center text-center">
             <h3 className="text-xl sm:text-2xl font-bold uppercase tracking-wider text-white">
-              Interested in planning a similar event?
+              Bạn có muốn lên kế hoạch cho một sự kiện tương tự?
             </h3>
             <p className="text-[#D7E2EA]/60 text-sm sm:text-base mt-2 max-w-md">
-              Let's create customized visual layouts, workflows, and production designs together.
+              Hãy cùng nhau xây dựng không gian trải nghiệm, quy trình vận hành và kịch bản chương trình.
             </p>
           </FadeIn>
 
-          <FadeIn delay={0.1} y={20}>
-            <ContactButton />
-          </FadeIn>
+          <div className="flex flex-col items-center gap-4 w-full">
+            <FadeIn delay={0.1} y={20} className="flex justify-center">
+              <ContactButton />
+            </FadeIn>
 
-          <FadeIn delay={0.2} y={20}>
-            <GhostButton label="← Back to Experiences" to="/#experiences" />
-          </FadeIn>
+            <FadeIn delay={0.2} y={20} className="flex justify-center">
+              <GhostButton label="← Quay lại Kinh nghiệm" to="/#experiences" />
+            </FadeIn>
+          </div>
         </section>
       </main>
 

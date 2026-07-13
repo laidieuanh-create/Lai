@@ -4,28 +4,28 @@ import FadeIn from "./FadeIn";
 const services = [
   {
     num: "01",
-    name: "Event Planning",
-    desc: "Coordinating event logistics, vendor and budget management, and on-site execution from concept to delivery.",
+    name: "Lập kế hoạch Sự kiện",
+    desc: "Điều phối hậu cần sự kiện, quản lý nhà cung cấp và ngân sách, cùng hoạt động vận hành tại chỗ từ ý tưởng đến bàn giao.",
   },
   {
     num: "02",
-    name: "Event Marketing",
-    desc: "Integrated marketing campaigns, social media promotion, and audience engagement strategies that maximize event visibility before, during, and after every experience.",
+    name: "Tiếp thị Sự kiện",
+    desc: "Các chiến dịch tiếp thị tích hợp, quảng bá trên mạng xã hội và chiến lược gắn kết khán giả giúp tối đa hóa mức độ hiển thị của sự kiện trước, trong và sau mỗi trải nghiệm.",
   },
   {
     num: "03",
-    name: "Bilingual Hosting (MC)",
-    desc: "MC hosting and English–Vietnamese interpretation for conferences, forums, and cross-cultural business events.",
+    name: "Dẫn chương trình Song ngữ (MC)",
+    desc: "Dẫn chương trình chuyên nghiệp và phiên dịch Anh - Việt cho các hội nghị, diễn đàn và sự kiện kinh doanh đa văn hóa.",
   },
   {
     num: "04",
-    name: "Project Management",
-    desc: "Efficient timeline management, vendor coordination, budgeting, and on-site execution to deliver events smoothly, on time, and within scope.",
+    name: "Quản lý Dự án",
+    desc: "Quản lý tiến độ hiệu quả, điều phối nhà cung cấp, lập ngân sách và vận hành tại chỗ để sự kiện diễn ra suôn sẻ, đúng hạn và đúng phạm vi.",
   },
   {
     num: "05",
-    name: "Creative Design",
-    desc: "Designing presentations, event branding, and short-form videos using CapCut, Canva, and AI-assisted creative tools.",
+    name: "Thiết kế Sáng tạo",
+    desc: "Thiết kế bài thuyết trình, bộ nhận diện sự kiện và sản xuất video ngắn bằng CapCut, Canva cùng các công cụ sáng tạo hỗ trợ bởi AI.",
   },
 ];
 
@@ -43,7 +43,7 @@ export default function ServicesSection() {
               className="text-[#0C0C0C] font-black uppercase leading-none tracking-tight inline-block"
               style={{ fontSize: "clamp(3rem, 12vw, 160px)" }}
             >
-              Skills
+              Kỹ năng
             </h2>
           </FadeIn>
         </div>

@@ -56,7 +56,7 @@ function TypewriterSubtitle({ introState }: { introState: number }) {
     let isCancelled = false;
 
     if (introState === 2) {
-      const fullText = "Want to know about me?";
+      const fullText = "Chào mừng bạn đến với Portfolio của tôi!";
       let currentIndex = 0;
       
       const type = () => {
@@ -76,8 +76,8 @@ function TypewriterSubtitle({ introState }: { introState: number }) {
     }
 
     if (introState === 3) {
-      const fullText = "Want to know about me?";
-      const nextText = "Welcome";
+      const fullText = "Chào mừng bạn đến với Portfolio của tôi!";
+      const nextText = "Chào mừng!";
       
       let currentIndex = fullText.length;
       
@@ -208,7 +208,7 @@ export default function HeroSection() {
         transition={{ duration: 0.8, ease: "easeOut", delay: 0.1 }}
         className="hidden sm:flex absolute left-4 sm:left-6 md:left-8 top-1/2 -translate-y-1/2 z-0 flex-col items-center justify-center w-6 sm:w-8 pointer-events-none"
       >
-        <VerticalMarquee text="EVENT PLANNING • BUDGET MANAGEMENT • VENDOR COORDINATION • LOGISTICS • CREATIVE DIRECTION • TIMELINE MANAGEMENT" speed={25} />
+        <VerticalMarquee text="LẬP KẾ HOẠCH SỰ KIỆN • QUẢN LÝ NGÂN SÁCH • ĐIỀU PHỐI NHÀ CUNG CẤP • HẬU CẦN • CHỈ ĐẠO SÁNG TẠO • QUẢN LÝ TIẾN ĐỘ" speed={25} />
       </motion.div>
 
       {/* Right Flanking Element (Available for projects Marquee with Sparkles icon) - Absolute positioned at the right edge */}
@@ -220,7 +220,7 @@ export default function HeroSection() {
       >
         <div className="flex flex-col items-center gap-4 sm:gap-6">
           <Sparkles className="w-5 h-5 sm:w-6 sm:h-6 text-[#D7E2EA] opacity-50 flex-shrink-0" />
-          <VerticalMarquee text="OPEN TO OPPORTUNITIES • LET'S CREATE SOMETHING UNFORGETTABLE TOGETHER • AVAILABLE FOR NEW ROLES" speed={25} reverse={true} />
+          <VerticalMarquee text="SẴN SÀNG • KIẾN TẠO • SỰ KIỆN • ĐÁNG NHỚ • NGHỆ THUẬT • CHUYÊN NGHIỆP" speed={25} reverse={true} />
         </div>
       </motion.div>
 
@@ -231,9 +231,9 @@ export default function HeroSection() {
             variants={headlineVariants}
             initial="initial"
             animate={getHeadlineState()}
-            className="hero-heading font-black uppercase tracking-tight leading-none whitespace-nowrap w-full text-center text-transparent bg-clip-text bg-gradient-to-b from-white to-[#D7E2EA] text-[10vw] sm:text-[10.5vw] md:text-[10.2vw] lg:text-[9.8vw] xl:text-[9.5vw] drop-shadow-[0_4px_12px_rgba(255,255,255,0.08)] mt-6 sm:mt-4 md:-mt-5"
+            className="hero-heading font-black uppercase tracking-tight leading-none whitespace-nowrap w-full text-center text-transparent bg-clip-text bg-gradient-to-b from-white to-[#D7E2EA] text-[6.2vw] sm:text-[6.4vw] md:text-[6.4vw] lg:text-[6.2vw] xl:text-[6vw] drop-shadow-[0_4px_12px_rgba(255,255,255,0.08)] mt-6 sm:mt-4 md:-mt-5"
           >
-            HI, I'M DIỆU ANH
+            XIN CHÀO, TÔI LÀ DIỆU ANH
           </motion.h1>
           
           <TypewriterSubtitle introState={introState} />
@@ -268,7 +268,7 @@ export default function HeroSection() {
           className="text-[#D7E2EA] font-light uppercase tracking-wide leading-snug max-w-[160px] sm:max-w-[220px] md:max-w-[260px]"
           style={{ fontSize: "clamp(0.75rem, 1.4vw, 1.5rem)" }}
         >
-          Where passion meets unforgettable events
+          Nơi đam mê tạo nên những sự kiện khó quên
         </p>
 
         <ContactButton />

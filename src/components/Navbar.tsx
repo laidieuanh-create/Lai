@@ -18,10 +18,10 @@ export default function Navbar({ active = true }: { active?: boolean }) {
   };
 
   const navItems = [
-    { label: "About", id: "about" },
-    { label: "Skills", id: "skills" },
-    { label: "Experiences", id: "experiences" },
-    { label: "Contact", id: "contact" },
+    { label: "Giới thiệu", id: "about" },
+    { label: "Kỹ năng", id: "skills" },
+    { label: "Kinh nghiệm", id: "experiences" },
+    { label: "Liên hệ", id: "contact" },
   ];
 
   return (

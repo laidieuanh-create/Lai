@@ -32,7 +32,7 @@ export default function ContactButton() {
         outlineOffset: "-3px",
       }}
     >
-      Let's Work Together
+      Liên hệ hợp tác
     </motion.button>
   );
 }

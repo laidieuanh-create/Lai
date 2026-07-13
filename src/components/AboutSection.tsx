@@ -11,21 +11,21 @@ const BASE_IMG_URL = "https://shrug-person-78902957.figma.site/_components/v2/eb
 const cornerImages = [
   {
     src: "p59_1.4659672e.png",
-    alt: "Decorative element bottom left",
+    alt: "Phần tử trang trí dưới cùng bên trái",
     className: "absolute bottom-[8%] left-[3%] sm:left-[6%] md:left-[10%] w-[100px] sm:w-[140px] md:w-[180px] pointer-events-none select-none z-0",
     delay: 0.25,
     x: -80,
   },
   {
     src: "lego_icon-1.703bb594.png",
-    alt: "Decorative lego icon",
+    alt: "Biểu tượng lego trang trí",
     className: "absolute top-[4%] right-[1%] sm:right-[2%] md:right-[4%] w-[120px] sm:w-[160px] md:w-[210px] pointer-events-none select-none z-0",
     delay: 0.15,
     x: 80,
   },
   {
     src: "Group_134-1.2e04f3ce.png",
-    alt: "Decorative element bottom right",
+    alt: "Phần tử trang trí dưới cùng bên phải",
     className: "absolute bottom-[8%] right-[3%] sm:right-[6%] md:right-[10%] w-[130px] sm:w-[170px] md:w-[220px] pointer-events-none select-none z-0",
     delay: 0.3,
     x: 80,
@@ -161,7 +161,7 @@ export default function AboutSection() {
             >
               <motion.img
                 src={graduationCapIcon}
-                alt="Interactive graduation cap icon"
+                alt="Biểu tượng mũ cử nhân tương tác"
                 referrerPolicy="no-referrer"
                 className="w-full h-auto object-contain"
                 style={{ mixBlendMode: "screen" }}
@@ -171,7 +171,7 @@ export default function AboutSection() {
               />
 
               {/* Pulsing visual cue / interactive indicator */}
-              {!isOpen && (
+               {!isOpen && (
                 <div className="absolute top-[12%] right-[12%] flex h-3.5 w-3.5 z-40">
                   <motion.span
                     animate={{
@@ -188,9 +188,9 @@ export default function AboutSection() {
                   <span className="relative inline-flex rounded-full h-3.5 w-3.5 bg-gradient-to-r from-purple-500 to-pink-500 shadow-[0_0_12px_rgba(168,85,247,0.8)]"></span>
                   
                   {/* Subtle "tap" label for mobile users */}
-                  {!isHoverSupported && (
+                   {!isHoverSupported && (
                     <span className="absolute left-1/2 -translate-x-1/2 -top-6 bg-purple-600/90 text-[9px] text-white px-1.5 py-0.5 rounded shadow whitespace-nowrap font-sans font-medium uppercase tracking-wider animate-bounce">
-                      Tap
+                      Chạm
                     </span>
                   )}
                 </div>
@@ -232,7 +232,7 @@ export default function AboutSection() {
                   {/* Program Title & Honours Subtext */}
                   <div className="flex flex-col gap-2 mt-0.5">
                     <h4 className="text-white font-bold text-sm sm:text-base leading-snug">
-                      Bachelor of Arts (Hons) in Event Management
+                      Cử nhân Danh dự (BA Hons) ngành Quản trị Sự kiện
                     </h4>
 
                     <div className="flex items-center mt-0.5">
@@ -242,14 +242,14 @@ export default function AboutSection() {
                           background: "linear-gradient(123deg, #18011F 7%, #B600A8 37%, #7621B0 72%, #BE4C00 100%)",
                         }}
                       >
-                        First Class Honours
+                        Tốt nghiệp loại Xuất sắc (First Class)
                       </span>
                     </div>
                   </div>
 
                   {/* Timestamp Line */}
                   <div className="mt-0.5 pt-2 border-t border-white/10 flex items-center justify-between text-gray-400 text-[10px] sm:text-xs font-mono">
-                    <span>Aug 2023 – Apr 2026</span>
+                    <span>Tháng 8/2023 – Tháng 4/2026</span>
                   </div>
                 </motion.div>
               )}
@@ -285,7 +285,7 @@ export default function AboutSection() {
             className="hero-heading font-black uppercase leading-none tracking-tight select-none"
             style={{ fontSize: "clamp(3rem, 12vw, 160px)" }}
           >
-            About me
+            Giới thiệu
           </h2>
         </FadeIn>
 
@@ -295,7 +295,7 @@ export default function AboutSection() {
         {/* Animated paragraph */}
         <div className="w-full max-w-[560px]">
           <AnimatedText
-            text="I specialize in event planning, marketing communications, exhibitions, conferences and business networking experiences. I enjoy transforming ideas into memorable experiences that leave a lasting impression. Let's create something unforgettable together."
+            text="Tôi chuyên sâu trong lĩnh vực lập kế hoạch sự kiện, truyền thông tiếp thị, tổ chức triển lãm, hội nghị và các trải nghiệm kết nối doanh nghiệp. Tôi đam mê chuyển hóa các ý tưởng thành những trải nghiệm đáng nhớ và tạo dấu ấn sâu sắc. Hãy cùng nhau kiến tạo những cột mốc không thể quên."
             className="text-[#D7E2EA] font-medium leading-relaxed"
             style={{ fontSize: "clamp(1rem, 2vw, 1.35rem)" } as React.CSSProperties}
           />

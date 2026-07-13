@@ -4,20 +4,20 @@ export const experiencesData: Experience[] = [
   {
     id: "01",
     slug: "vasi-secretary-project-coordinator",
-    name: "VIETNAM ASSOCIATION FOR SUPPORTING INDUSTRIES (VASI)",
-    category: "SECRETARY & PROJECT COORDINATOR",
+    name: "Hiệp hội Công nghiệp hỗ trợ Việt Nam (VASI)",
+    category: "DỰ ÁN SÁNG TẠO",
     subtitle: undefined,
-    role: "Secretary & Project Coordinator",
-    date: "May 2026 – Present",
-    location: "Hanoi, Vietnam",
+    role: "Thư ký",
+    date: "Tháng 5/2026 – Hiện tại",
+    location: "Hà Nội, Việt Nam",
     col1Img1: "https://res.cloudinary.com/g1xdn507/image/upload/v1783854415/z8000522205332_9c9a48f87013e13f5a4f888b1bb28af6_ona1f0.jpg",
     col1Img2: "https://res.cloudinary.com/g1xdn507/image/upload/v1783854415/0G9A0117_yoj3ok.jpg",
     col2Img: "https://res.cloudinary.com/g1xdn507/image/upload/v1783854413/z8000522180333_6a3d60f6588677f16e615ceddb99ad76_kqw92a.jpg",
-    description: "Coordinating international industrial forums, vendor relations, and supporting local manufacturing networks across Vietnam.",
+    description: "Điều phối các diễn đàn công nghiệp quốc tế, quan hệ với nhà cung cấp, và hỗ trợ mạng lưới sản xuất trong nước trên khắp Việt Nam.",
     paragraphs: [
-      "Coordinating stakeholder communications and business engagements for the Vice Chairman across industry, government, and partner networks.",
-      "Facilitating partnership development and English–Vietnamese interpretation for international partners.",
-      "Supporting marketing and event promotion for FBC ASEAN — 1,000+ booths, 30,000+ visitors — co-organised with NC Network."
+      "Điều phối truyền thông với các bên liên quan và các hoạt động kết nối kinh doanh cho Phó Chủ tịch trong mạng lưới doanh nghiệp, chính phủ và đối tác.",
+      "Thúc đẩy phát triển quan hệ đối tác và phiên dịch Anh–Việt cho các đối tác quốc tế.",
+      "Hỗ trợ tiếp thị và truyền thông sự kiện cho FBC ASEAN — 1.000+ gian hàng, 30.000+ khách tham quan — đồng tổ chức với NC Network."
     ],
     gallery: [
       "https://res.cloudinary.com/g1xdn507/image/upload/v1783854415/z8000522205332_9c9a48f87013e13f5a4f888b1bb28af6_ona1f0.jpg",
@@ -27,46 +27,46 @@ export const experiencesData: Experience[] = [
       "https://res.cloudinary.com/g1xdn507/image/upload/v1783854417/0G9A9421_mfvfmb.jpg",
       "https://res.cloudinary.com/g1xdn507/image/upload/v1783854421/z8000522191913_ad9dc5dd953ea2159af5d5b1498ef8fb_hpnwuo.jpg"
     ],
-    detailName: "Vietnam Association for Supporting Industries (VASI)",
+    detailName: "Hiệp hội Công nghiệp hỗ trợ Việt Nam (VASI)",
     metaText: undefined,
     partnerLogos: [
       "https://res.cloudinary.com/g1xdn507/image/upload/v1783853830/logo-1_vp8o3z.png"
     ],
     timelineItems: [
       {
-        label: "Executive Operations",
-        text: "Managed the **Vice Chairman's** schedule, **administrative documentation**, and **internal communications**."
+        label: "ĐIỀU HÀNH & VẬN HÀNH",
+        text: "Quản lý lịch trình, hồ sơ hành chính, và truyền thông nội bộ cho **Phó Chủ tịch**."
       },
       {
-        label: "Partnership & Communication",
-        text: "Facilitated **business matching** between **Vietnamese manufacturing companies** and **international partners** through business visits, networking events, and online meetings."
+        label: "ĐỐI TÁC & TRUYỀN THÔNG",
+        text: "Hỗ trợ **kết nối kinh doanh** giữa các **doanh nghiệp sản xuất Việt Nam** và **đối tác quốc tế** thông qua các chuyến thăm doanh nghiệp, sự kiện kết nối, và các buổi họp trực tuyến."
       },
       {
-        label: "Event Marketing",
-        text: "Supporting marketing and event promotion for **FBC ASEAN** — **1,000+ booths**, **30,000+ visitors** — co-organised with **NC Network**."
+        label: "MARKETING SỰ KIỆN",
+        text: "Hỗ trợ marketing và quảng bá cho **FBC ASEAN** — **hơn 1.000 gian hàng**, **hơn 30.000 lượt khách tham quan** — đồng tổ chức cùng **NC Network**."
       }
     ]
   },
   {
     id: "02",
     slug: "buv-events-department",
-    name: "BRITISH UNIVERSITY VIETNAM (BUV)",
-    category: "EVENT INTERN",
-    subtitle: "British University Vietnam (BUV) – Events Department",
-    role: "Event Intern",
-    date: "Sep 2025 – Dec 2025",
-    location: "Hanoi, Vietnam",
+    name: "Đại Học Anh Quốc Việt Nam (BUV)",
+    category: "THỰC TẬP SINH SỰ KIỆN",
+    subtitle: "Đại Học Anh Quốc Việt Nam (BUV) – Phòng Sự kiện",
+    role: "Thực tập sinh Sự Kiện",
+    date: "Tháng 9/2025 – Tháng 12/2025",
+    location: "Hà Nội, Việt Nam",
     partnerLogos: [
       "https://res.cloudinary.com/g1xdn507/image/upload/v1783787177/buv_logo_v7qjdm.png"
     ],
     col1Img1: "https://res.cloudinary.com/g1xdn507/image/upload/v1783858433/z8032680008375_f758ff8b4245886db295abf4490a5fa2_jzz36w.jpg",
     col1Img2: "https://res.cloudinary.com/g1xdn507/image/upload/v1783858432/z8032679949650_ccc7f5bad7a55ce41e7a341300ea6098_cvfq4l.jpg",
     col2Img: "https://res.cloudinary.com/g1xdn507/image/upload/v1783858472/IMG_5272_libiws.jpg",
-    description: "Planning and executing recruitment, brand, and high-impact events for British University Vietnam (BUV), coordinating logistics, and leading student ambassadors.",
+    description: "Lập kế hoạch và triển khai các sự kiện tuyển sinh, thương hiệu và các chương trình quy mô lớn cho British University Vietnam (BUV), điều phối hậu cần và dẫn dắt đội Đại sứ Sinh viên.",
     paragraphs: [
-      "Planned and executed recruitment and brand events for up to 2,000+ attendees, serving as the main point of contact for event logistics across internal teams and external stakeholders.",
-      "Recruited, trained, and managed a 30-member Student Ambassador team, building assessment standards and engagement policies to drive motivation.",
-      "Oversaw event logistics and merchandise operations, preparing 700+ graduation kits and coordinating high school visits across multiple provinces."
+      "Lên kế hoạch và tổ chức các sự kiện tuyển sinh và thương hiệu với quy mô lên tới 2.000+ người tham dự, là đầu mối liên hệ chính về hậu cần sự kiện giữa các đội ngũ nội bộ và đối tác bên ngoài.",
+      "Tuyển dụng, đào tạo và quản lý đội ngũ 30 Đại sứ Sinh viên, xây dựng tiêu chuẩn đánh giá và chính sách tương tác nhằm thúc đẩy động lực làm việc.",
+      "Giám sát hậu cần sự kiện và vận hành quà tặng thương hiệu, chuẩn bị hơn 700 bộ lễ phục tốt nghiệp và điều phối các chuyến tham quan trường cấp ba tại nhiều tỉnh thành."
     ],
     gallery: [
       "https://res.cloudinary.com/g1xdn507/image/upload/v1783858433/z8032680008375_f758ff8b4245886db295abf4490a5fa2_jzz36w.jpg",
@@ -76,47 +76,47 @@ export const experiencesData: Experience[] = [
       "https://res.cloudinary.com/g1xdn507/image/upload/v1783858431/z8032679847760_a00f486f2c10f154aa12d4b1dcb29270_viz3ki.jpg",
       "https://res.cloudinary.com/g1xdn507/image/upload/v1783858432/z8032679909276_73acfd9b53b0417722e55521ed545667_jofkg2.jpg"
     ],
-    detailName: "British University Vietnam (BUV)",
+    detailName: "Đại Học Anh Quốc Việt Nam (BUV)",
     metaText: undefined,
     timelineItems: [
       {
-        label: "EVENT PLANNING & COORDINATION",
-        text: "Planned and executed **10+ recruitment and brand events** — including **Open Day, Experience Day, Graduation Ceremony**, and **BUV Visit** — for up to **2,000+ attendees**, serving as the main point of contact for event logistics across internal teams and external stakeholders."
+        label: "LẬP KẾ HOẠCH & ĐIỀU PHỐI SỰ KIỆN",
+        text: "Lập kế hoạch và triển khai **hơn 10 sự kiện tuyển sinh và thương hiệu** — bao gồm **Open Day, Experience Day, Lễ Tốt nghiệp**, và **BUV Visit** — cho **hơn 2.000 khách tham tự**, là đầu mối chính về hậu cần sự kiện giữa các phòng ban nội bộ và đối tác bên ngoài."
       },
       {
-        label: "TEAM LEADERSHIP",
-        text: "Recruited, trained, and managed a **30-member Student Ambassador team**, building assessment standards and engagement policies to drive motivation and support the events team's KPIs."
+        label: "LÃNH ĐẠO ĐỘI NHÓM",
+        text: "Tuyển dụng, đào tạo và quản lý **đội Đại sứ Sinh viên gồm 30 thành viên**, xây dựng tiêu chuẩn đánh giá và chính sách gắn kết để thúc đẩy động lực và hỗ trợ KPI của bộ phận sự kiện."
       },
       {
-        label: "LOGISTICS & MERCHANDISE",
-        text: "Oversaw event logistics and merchandise operations, preparing **700+ graduation kits** and coordinating BUV Visit merchandise across **4 provinces** and **10+ high schools** to ensure strong brand presence and accommodate high turnouts."
+        label: "HẬU CẦN & QUÀ TẶNG",
+        text: "Phụ trách hậu cần sự kiện và vận hành quà tặng, chuẩn bị **hơn 700 bộ quà tốt nghiệp** và điều phối quà tặng cho chương trình BUV Visit tại **4 tỉnh thành** và **hơn 10 trường THPT** nhằm đảm bảo độ nhận diện thương hiệu và đáp ứng lượng khách lớn."
       },
       {
-        label: "GUEST EXPERIENCE & MC",
-        text: "Delivered a high standard of guest experience and on-site brand visual setup, and served as **MC for BUV Open Day**."
+        label: "TRẢI NGHIỆM KHÁCH MỜI & MC",
+        text: "Mang đến trải nghiệm khách mời chất lượng cao và thiết lập hình ảnh thương hiệu tại hiện trường, đồng thời đảm nhận vai trò **MC cho BUV Open Day**."
       }
     ]
   },
   {
     id: "03",
     slug: "hami-communications-event-assistant",
-    name: "HANOI ASSOCIATION OF MAIN INDUSTRIES (HAMI)",
-    category: "COMMUNICATIONS & EVENT ASSISTANT",
+    name: "Hội Doanh Nghiệp Sản Xuất Sản Phẩm Công Nghiệp Chủ Lực Hà Nội (HAMI)",
+    category: "TRỢ LÝ TRUYỀN THÔNG & SỰ KIỆN",
     subtitle: undefined,
-    role: "Communications & Event Assistant",
-    date: "Jan 2024 – June 2026",
-    location: "Hanoi, Vietnam",
+    role: "Trợ lý Truyền thông & Sự kiện",
+    date: "Tháng 1/2024 – Tháng 6/2026",
+    location: "Hà Nội, Việt Nam",
     partnerLogos: [
       "https://res.cloudinary.com/g1xdn507/image/upload/v1783861560/z7848887983862_6a4866acdfb5a2e55550c4bda6003c67_1_cp6y68.jpg"
     ],
     col1Img1: "https://res.cloudinary.com/g1xdn507/image/upload/v1783860029/733538935_28353382467582022_843886042726571926_n_goy6fx.jpg",
     col1Img2: "https://res.cloudinary.com/g1xdn507/image/upload/v1783860160/z7884577649362_0408d376f937ec6b396835c6d1ba3819_udlbbs.jpg",
     col2Img: "https://res.cloudinary.com/g1xdn507/image/upload/v1783860625/LV_00147_u14jvi.jpg",
-    description: "Managing community communications, media engagement, and executive coordination for Hanoi's leading industrial enterprises.",
+    description: "Quản lý truyền thông cộng đồng, quan hệ báo chí, và điều phối cấp điều hành cho các doanh nghiệp công nghiệp hàng đầu Hà Nội.",
     paragraphs: [
-      "I managed community communications, media engagement, and executive coordination for Hanoi's leading industrial enterprises.",
-      "I executed high-impact press conferences, member meetings, and industry networking nights.",
-      "I drafted press releases, designed promotional newsletters, and assisted on-site to ensure dynamic audience engagement."
+      "Quản lý truyền thông cộng đồng, tương tác báo chí và điều phối điều hành cho các doanh nghiệp công nghiệp hàng đầu của Hà Nội.",
+      "Tổ chức các buổi họp báo có sức ảnh hưởng lớn, các buổi gặp mặt hội viên và các đêm tiệc giao lưu kết nối doanh nghiệp ngành công nghiệp.",
+      "Soạn thảo thông cáo báo chí, thiết kế bản tin quảng bá và hỗ trợ trực tiếp tại sự kiện để đảm bảo sự tương tác sôi nổi từ người tham gia."
     ],
     gallery: [
       "https://res.cloudinary.com/g1xdn507/image/upload/v1783860029/733538935_28353382467582022_843886042726571926_n_goy6fx.jpg",
@@ -126,51 +126,51 @@ export const experiencesData: Experience[] = [
       "https://res.cloudinary.com/g1xdn507/image/upload/v1783860347/acfbc45a2e31d6c8d77c66db13a5e0b2_e1zof1.jpg",
       "https://res.cloudinary.com/g1xdn507/image/upload/v1783861532/z7884741547960_7004793bb4927ed06539fed12426a851_aqwk1d.jpg"
     ],
-    detailName: "Hanoi Association of Main Industries (HAMI)",
+    detailName: "Hội Doanh Nghiệp Sản Xuất Sản Phẩm Công Nghiệp Chủ Lực Hà Nội (HAMI)",
     metaText: undefined,
     timelineItems: [
       {
-        label: "EVENT COORDINATION",
-        text: "Coordinated end-to-end planning and delivery of **30+ industry conferences**, **10+ networking events**, and **10+ factory visits**, engaging **300+ manufacturing enterprises**."
+        label: "ĐIỀU PHỐI SỰ KIỆN",
+        text: "Điều phối toàn bộ quá trình lập kế hoạch và triển khai **hơn 30 hội nghị ngành**, **hơn 10 sự kiện kết nối**, và **hơn 10 chuyến thăm nhà máy**, thu hút **hơn 300 doanh nghiệp sản xuất**."
       },
       {
-        label: "DIGITAL PRESENCE",
-        text: "Led the redesign of the **HAMI website**, coordinating membership data, content development, and collaboration with designers to enhance the association's digital presence."
+        label: "HIỆN DIỆN SỐ",
+        text: "Dẫn dắt việc thiết kế lại **website HAMI**, điều phối dữ liệu hội viên, phát triển nội dung, và phối hợp cùng nhà thiết kế để nâng cao hình ảnh số của hiệp hội."
       },
       {
-        label: "PRODUCTION & ON-SITE MANAGEMENT",
-        text: "Built detailed **event timelines, run-of-show, and MC scripts**, coordinating cross-functionally with production teams, media partners, vendors, and industry associations to ensure smooth execution and rapid on-site problem solving."
+        label: "SẢN XUẤT & QUẢN LÝ HIỆN TRƯỜNG",
+        text: "Xây dựng chi tiết **lịch trình sự kiện, kịch bản chương trình, và kịch bản MC**, phối hợp đa phòng ban với đội sản xuất, đối tác truyền thông, nhà cung cấp, và các hiệp hội ngành để đảm bảo chương trình diễn ra suôn sẻ và xử lý nhanh các tình huống tại hiện trường."
       }
     ]
   },
   {
     id: "04",
     slug: "buv-creative-projects",
-    name: "BRITISH UNIVERSITY VIETNAM (BUV)",
-    category: "CREATIVE PROJECTS",
-    subtitle: "Student-led Project",
-    role: "Creative Director & Project Lead",
+    name: "Đại Học Anh Quốc Việt Nam (BUV)",
+    category: "DỰ ÁN SÁNG TẠO",
+    subtitle: "Dự án Sinh viên Chủ trì",
+    role: "Giám đốc Sáng tạo & Trưởng nhóm Dự án",
     date: "2024 – 2026",
-    location: "Hanoi, Vietnam",
+    location: "Hà Nội, Việt Nam",
     col1Img1: "https://res.cloudinary.com/g1xdn507/image/upload/v1783865003/470086901_122144613992351566_7083044542396535314_n_cuzlhc.jpg",
     col1Img2: "https://res.cloudinary.com/g1xdn507/image/upload/v1783863677/481510967_657589066714838_6807767439491515099_n_bz6obu.jpg",
     col2Img: "https://res.cloudinary.com/g1xdn507/image/upload/v1783865560/659139270_122118212349206538_1226800282961604144_n_xzchp9.jpg",
-    description: "Directing visual identity, set designs, and short-form video campaigns for high-engagement student-led initiatives and creative workshops.",
+    description: "Chỉ đạo nhận diện hình ảnh, thiết kế sân khấu, và các chiến dịch video ngắn cho các dự án sinh viên và workshop sáng tạo có độ tương tác cao.",
     paragraphs: [
-      "I designed presentations, event branding, and short-form videos using Canva, CapCut, and AI-assisted creative tools.",
-      "I directed visual identity, set designs, and short-form video campaigns for high-engagement student-led initiatives.",
-      "I produced visual assets and experiential space design for creative workshops and dynamic student communities."
+      "Thiết kế bài thuyết trình, bộ nhận diện sự kiện và sản xuất các video ngắn bằng Canva, CapCut và các công cụ sáng tạo hỗ trợ bởi AI.",
+      "Chỉ đạo nhận diện hình ảnh, thiết kế sân khấu và các chiến dịch video ngắn cho các sáng kiến do sinh viên dẫn dắt có tính tương tác cao.",
+      "Sản xuất các ấn phẩm hình ảnh và thiết kế không gian trải nghiệm cho các buổi workshop sáng tạo và cộng đồng sinh viên năng động."
     ],
     gallery: [],
-    detailName: "British University Vietnam (BUV)",
+    detailName: "Đại Học Anh Quốc Việt Nam (BUV)",
     metaText: undefined,
     projects: [
       {
         label: "JELLISTIC WORKSHOP",
-        time: "June 2024",
-        position: "Creative Director",
+        time: "Tháng 6/2024",
+        position: "Giám đốc Sáng tạo",
         logo: "https://res.cloudinary.com/g1xdn507/image/upload/v1783864700/441896876_2461200430935038_6113461166774333076_n_ttzjee.jpg",
-        text: "Created a **recycled jellyfish decoration** project made from plastic bags, complete with a step-by-step guide, to repurpose hard-to-decompose materials and inspire BUV students and staff. Collected **300 plastic bags in 10 minutes** at the pre-event and recycled **99% of them** into **30+ jellyfish decorations** at the workshop. The event drew **30+ participants** — students, teachers, and staff — with overwhelmingly positive feedback.",
+        text: "Xây dựng quy trình làm đồ trang trí hình con sứa tái chế từ túi nilon, kèm hướng dẫn từng bước, nhằm tái sử dụng vật liệu khó phân huỷ và truyền cảm hứng cho sinh viên, cán bộ BUV. Tại **Pre-event**, thu gom **300 túi nilon trong 10 phút** và tái chế **99% số túi** thành **hơn 30 sản phẩm trang trí con sứa** tại workshop. Sự kiện thu hút **hơn 30 người tham gia** — sinh viên, giảng viên và cán bộ — với phản hồi tích cực áp đảo.",
         gallery: [
           "https://res.cloudinary.com/g1xdn507/image/upload/v1783865003/470086901_122144613992351566_7083044542396535314_n_cuzlhc.jpg",
           "https://res.cloudinary.com/g1xdn507/image/upload/v1783865004/466422823_122139357902351566_8035130252313623803_n_smzwmv.jpg",
@@ -183,10 +183,10 @@ export const experiencesData: Experience[] = [
       },
       {
         label: "VIVA MUSICA — Vietnamese Music Through the Eras at BUV",
-        time: "Jun 2024 – Nov 2024",
-        position: "Deputy Director",
+        time: "Tháng 6/2024 – Tháng 11/2024",
+        position: "Phó Đạo diễn",
         logo: "https://res.cloudinary.com/g1xdn507/image/upload/v1783864703/456411513_122102001704481804_7495057961750955237_n_vmyzcj.jpg",
-        text: "Designed the content, cast, and script for stage segments tracing **Vietnamese music through multiple eras**, for **250+ attendees**. Managed actors and singers, tracked rehearsal progress, and coordinated risk handling throughout production. Supported artist care and backstage coordination to keep the show on schedule. Contributed to **choreography** and artistic direction across performances, and laid the groundwork for **VIVA MUSICA Season 2**.",
+        text: "Phụ trách thiết kế nội dung, tuyển diễn viên, vũ công và xây dựng kịch bản cho các tiết mục sân khấu tái hiện âm nhạc Việt Nam qua nhiều thời kỳ, phục vụ **hơn 250 khách tham tự**. Quản lý diễn viên, ca sĩ, theo dõi tiến độ luyện tập, và phối hợp xử lý rủi ro trong suốt quá trình sản xuất. Hỗ trợ chăm sóc nghệ sĩ và điều phối hậu trường để chương trình diễn ra đúng kế hoạch. Đóng góp vào **biên đạo** và định hướng nghệ thuật cho các tiết mục, đặt nền móng cho **VIVA MUSICA Mùa 2**.",
         gallery: [
           "https://res.cloudinary.com/g1xdn507/image/upload/v1783863677/481510967_657589066714838_6807767439491515099_n_bz6obu.jpg",
           "https://res.cloudinary.com/g1xdn507/image/upload/v1783863676/470539784_122132490116481804_4255196504950984253_n_cju7ni.jpg",
@@ -199,10 +199,10 @@ export const experiencesData: Experience[] = [
       },
       {
         label: "Thanh Ngự Lưu Niên — Hanoi Student Cultural Talent Contest",
-        time: "Jan 2026 – Mar 2026",
-        position: "Creative Director",
+        time: "Tháng 1/2026 – Tháng 3/2026",
+        position: "Giám đốc Sáng tạo",
         logo: "https://res.cloudinary.com/g1xdn507/image/upload/v1783864701/615200984_2402935713470145_8085992602003405454_n_b2alhn.jpg",
-        text: "A talent contest for Hanoi students with **250+ ticket-buying guests**, built around cultural preservation and personal identity through heritage — contestants competed across **4 rounds**: Photoshoot, Catwalk, Talent, and Q&A. Produced culturally-rooted program content, including the **'Ngũ Hồn Việt' photoshoot** inspired by Vietnamese virtues, traditional costume performances, and folk-modern fusion segments. Managed contestants and the operations team, led the **catwalk lineup**, choreography, and artistic direction. Coordinated stage operations, **LED visuals**, sound and lighting, and on-site troubleshooting. Helped secure sponsorships — catwalk, makeup, in-kind and cash — totaling up to **70,000,000 VND**.",
+        text: "Cuộc thi tài năng dành cho học sinh, sinh viên Hà Nội với **250+ khách mua vé**, được xây dựng xoay quanh việc bảo tồn văn hóa và bản sắc cá nhân thông qua di sản — các thí sinh đã tranh tài qua **4 vòng thi**: Photoshoot (Chụp ảnh), Catwalk, Tài năng và Ứng xử. Sản xuất nội dung chương trình mang đậm nét văn hóa, bao gồm **bộ ảnh photoshoot 'Ngũ Hồn Việt'** lấy cảm hứng từ các đức tính của người Việt, các màn trình diễn trang phục truyền thống và các tiết mục kết hợp dân gian - hiện đại. Quản lý thí sinh và đội ngũ vận hành, chỉ đạo **đội hình catwalk**, biên đạo và định hướng nghệ thuật. Điều phối hoạt động sân khấu, **hình ảnh màn hình LED**, âm thanh ánh sáng và xử lý sự cố tại chỗ. Hỗ trợ kết nối và mang về các gói tài trợ — catwalk, trang điểm, hiện vật và tiền mặt — với tổng giá trị lên tới **70.000.000 VNĐ**.",
         gallery: [
           "https://res.cloudinary.com/g1xdn507/image/upload/v1783865560/659139270_122118212349206538_1226800282961604144_n_xzchp9.jpg",
           "https://res.cloudinary.com/g1xdn507/image/upload/v1783865556/666487856_122118637791206538_9008970220576246760_n_xnhpad.jpg",
